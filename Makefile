@@ -37,7 +37,7 @@ update_boilerplate:
 	@boilerplate/update.sh
 
 .PHONY: generate
-generate: update_boilerplate install doc_gen_deps # get latest boiler plate, install tools, generate protos, mock, pflags and  get doc dependencies
+generate: update_boilerplate install # get latest boiler plate, install tools, generate protos, mock, pflags and  get doc dependencies
 	./script/generate_protos.sh
 	./script/generate_mocks.sh
 	go generate ./...

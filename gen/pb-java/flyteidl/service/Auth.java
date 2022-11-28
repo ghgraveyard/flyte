@@ -5090,8 +5090,8 @@ public final class Auth {
       "figResponse\"p\202\323\344\223\002\031\022\027/config/v1/flyte_cl" +
       "ient\222AN\032LRetrieves public flyte client i" +
       "nfo. This endpoint is anonymously access" +
-      "ible.B9Z7github.com/flyteorg/flyteidl/ge" +
-      "n/pb-go/flyteidl/serviceb\006proto3"
+      "ible.B6Z4github.com/flyteorg/flyte/gen/p" +
+      "b-go/flyteidl/serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

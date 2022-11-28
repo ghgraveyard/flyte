@@ -2095,9 +2095,9 @@ public final class Identity {
       "\211\001\n\010UserInfo\022!.flyteidl.service.UserInfo" +
       "Request\032\".flyteidl.service.UserInfoRespo" +
       "nse\"6\202\323\344\223\002\005\022\003/me\222A(\032&Retrieves authentic" +
-      "ated identity info.B9Z7github.com/flyteo" +
-      "rg/flyteidl/gen/pb-go/flyteidl/serviceb\006" +
-      "proto3"
+      "ated identity info.B6Z4github.com/flyteo" +
+      "rg/flyte/gen/pb-go/flyteidl/serviceb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

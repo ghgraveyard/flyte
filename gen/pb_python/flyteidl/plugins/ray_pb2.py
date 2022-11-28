@@ -13,15 +13,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='flyteidl/plugins/ray.proto',
   package='flyteidl.plugins',
   syntax='proto3',
-  serialized_options=_b('Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/plugins'),
-  serialized_pb=_b('\n\x1a\x66lyteidl/plugins/ray.proto\x12\x10\x66lyteidl.plugins\"P\n\x06RayJob\x12\x31\n\x0bray_cluster\x18\x01 \x01(\x0b\x32\x1c.flyteidl.plugins.RayCluster\x12\x13\n\x0bruntime_env\x18\x02 \x01(\t\"\x84\x01\n\nRayCluster\x12\x38\n\x0fhead_group_spec\x18\x01 \x01(\x0b\x32\x1f.flyteidl.plugins.HeadGroupSpec\x12<\n\x11worker_group_spec\x18\x02 \x03(\x0b\x32!.flyteidl.plugins.WorkerGroupSpec\"\x95\x01\n\rHeadGroupSpec\x12M\n\x10ray_start_params\x18\x01 \x03(\x0b\x32\x33.flyteidl.plugins.HeadGroupSpec.RayStartParamsEntry\x1a\x35\n\x13RayStartParamsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xeb\x01\n\x0fWorkerGroupSpec\x12\x12\n\ngroup_name\x18\x01 \x01(\t\x12\x10\n\x08replicas\x18\x02 \x01(\x05\x12\x14\n\x0cmin_replicas\x18\x03 \x01(\x05\x12\x14\n\x0cmax_replicas\x18\x04 \x01(\x05\x12O\n\x10ray_start_params\x18\x05 \x03(\x0b\x32\x35.flyteidl.plugins.WorkerGroupSpec.RayStartParamsEntry\x1a\x35\n\x13RayStartParamsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x42\x39Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/pluginsb\x06proto3')
-)
+  serialized_options=_b('Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/plugins'),
+  serialized_pb=_b('\n\x1a\x66lyteidl/plugins/ray.proto\x12\x10\x66lyteidl.plugins\x1a\x1fgoogle/protobuf/timestamp.proto\"P\n\x06RayJob\x12\x31\n\x0bray_cluster\x18\x01 \x01(\x0b\x32\x1c.flyteidl.plugins.RayCluster\x12\x13\n\x0bruntime_env\x18\x02 \x01(\t\"\x84\x01\n\nRayCluster\x12\x38\n\x0fhead_group_spec\x18\x01 \x01(\x0b\x32\x1f.flyteidl.plugins.HeadGroupSpec\x12<\n\x11worker_group_spec\x18\x02 \x03(\x0b\x32!.flyteidl.plugins.WorkerGroupSpec\"\x95\x01\n\rHeadGroupSpec\x12M\n\x10ray_start_params\x18\x01 \x03(\x0b\x32\x33.flyteidl.plugins.HeadGroupSpec.RayStartParamsEntry\x1a\x35\n\x13RayStartParamsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\"\xeb\x01\n\x0fWorkerGroupSpec\x12\x12\n\ngroup_name\x18\x01 \x01(\t\x12\x10\n\x08replicas\x18\x02 \x01(\x05\x12\x14\n\x0cmin_replicas\x18\x03 \x01(\x05\x12\x14\n\x0cmax_replicas\x18\x04 \x01(\x05\x12O\n\x10ray_start_params\x18\x05 \x03(\x0b\x32\x35.flyteidl.plugins.WorkerGroupSpec.RayStartParamsEntry\x1a\x35\n\x13RayStartParamsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x42\x36Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/pluginsb\x06proto3')
+  ,
+  dependencies=[google_dot_protobuf_dot_timestamp__pb2.DESCRIPTOR,])
 
 
 
@@ -59,8 +61,8 @@ _RAYJOB = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=48,
-  serialized_end=128,
+  serialized_start=81,
+  serialized_end=161,
 )
 
 
@@ -97,8 +99,8 @@ _RAYCLUSTER = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=131,
-  serialized_end=263,
+  serialized_start=164,
+  serialized_end=296,
 )
 
 
@@ -135,8 +137,8 @@ _HEADGROUPSPEC_RAYSTARTPARAMSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=362,
-  serialized_end=415,
+  serialized_start=395,
+  serialized_end=448,
 )
 
 _HEADGROUPSPEC = _descriptor.Descriptor(
@@ -165,8 +167,8 @@ _HEADGROUPSPEC = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=266,
-  serialized_end=415,
+  serialized_start=299,
+  serialized_end=448,
 )
 
 
@@ -203,8 +205,8 @@ _WORKERGROUPSPEC_RAYSTARTPARAMSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=362,
-  serialized_end=415,
+  serialized_start=395,
+  serialized_end=448,
 )
 
 _WORKERGROUPSPEC = _descriptor.Descriptor(
@@ -261,8 +263,8 @@ _WORKERGROUPSPEC = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=418,
-  serialized_end=653,
+  serialized_start=451,
+  serialized_end=686,
 )
 
 _RAYJOB.fields_by_name['ray_cluster'].message_type = _RAYCLUSTER

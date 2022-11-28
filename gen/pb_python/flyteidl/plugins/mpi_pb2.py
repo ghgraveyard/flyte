@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='flyteidl/plugins/mpi.proto',
   package='flyteidl.plugins',
   syntax='proto3',
-  serialized_options=_b('Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/plugins'),
-  serialized_pb=_b('\n\x1a\x66lyteidl/plugins/mpi.proto\x12\x10\x66lyteidl.plugins\"_\n\x1a\x44istributedMPITrainingTask\x12\x13\n\x0bnum_workers\x18\x01 \x01(\x05\x12\x1d\n\x15num_launcher_replicas\x18\x02 \x01(\x05\x12\r\n\x05slots\x18\x03 \x01(\x05\x42\x39Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/pluginsb\x06proto3')
+  serialized_options=_b('Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/plugins'),
+  serialized_pb=_b('\n\x1a\x66lyteidl/plugins/mpi.proto\x12\x10\x66lyteidl.plugins\"_\n\x1a\x44istributedMPITrainingTask\x12\x13\n\x0bnum_workers\x18\x01 \x01(\x05\x12\x1d\n\x15num_launcher_replicas\x18\x02 \x01(\x05\x12\r\n\x05slots\x18\x03 \x01(\x05\x42\x36Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/pluginsb\x06proto3')
 )
 
 

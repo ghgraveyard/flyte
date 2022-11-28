@@ -17,7 +17,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	core "github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/core"
+	core "github.com/flyteorg/flyte/gen/pb-go/flyteidl/core"
 )
 
 // ensure the imports are used
@@ -152,8 +152,6 @@ func (m *ExecutionRelaunchRequest) Validate() error {
 	}
 
 	// no validation rules for Name
-
-	// no validation rules for OverwriteCache
 
 	return nil
 }
@@ -1373,8 +1371,6 @@ func (m *ExecutionSpec) Validate() error {
 			}
 		}
 	}
-
-	// no validation rules for OverwriteCache
 
 	switch m.NotificationOverrides.(type) {
 

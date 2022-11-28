@@ -425,13 +425,13 @@ const char descriptor_table_protodef_flyteidl_2fcore_2ftypes_2eproto[] =
   "\nSimpleType\022\010\n\004NONE\020\000\022\013\n\007INTEGER\020\001\022\t\n\005FL"
   "OAT\020\002\022\n\n\006STRING\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010DATETI"
   "ME\020\005\022\014\n\010DURATION\020\006\022\n\n\006BINARY\020\007\022\t\n\005ERROR\020"
-  "\010\022\n\n\006STRUCT\020\tB6Z4github.com/flyteorg/fly"
-  "teidl/gen/pb-go/flyteidl/coreb\006proto3"
+  "\010\022\n\n\006STRUCT\020\tB3Z1github.com/flyteorg/fly"
+  "te/gen/pb-go/flyteidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fcore_2ftypes_2eproto = {
   false, InitDefaults_flyteidl_2fcore_2ftypes_2eproto, 
   descriptor_table_protodef_flyteidl_2fcore_2ftypes_2eproto,
-  "flyteidl/core/types.proto", &assign_descriptors_table_flyteidl_2fcore_2ftypes_2eproto, 1797,
+  "flyteidl/core/types.proto", &assign_descriptors_table_flyteidl_2fcore_2ftypes_2eproto, 1794,
 };
 
 void AddDescriptors_flyteidl_2fcore_2ftypes_2eproto() {

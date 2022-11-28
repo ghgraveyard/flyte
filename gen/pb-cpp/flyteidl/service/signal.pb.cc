@@ -59,14 +59,14 @@ const char descriptor_table_protodef_flyteidl_2fservice_2fsignal_2eproto[] =
   "uest that may have failed validation.Je\n"
   "\003409\022^\n\\Returned for a request that refe"
   "rences an identical entity that has alre"
-  "ady been registered.B9Z7github.com/flyte"
-  "org/flyteidl/gen/pb-go/flyteidl/serviceb"
-  "\006proto3"
+  "ady been registered.B6Z4github.com/flyte"
+  "org/flyte/gen/pb-go/flyteidl/serviceb\006pr"
+  "oto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fservice_2fsignal_2eproto = {
   false, InitDefaults_flyteidl_2fservice_2fsignal_2eproto, 
   descriptor_table_protodef_flyteidl_2fservice_2fsignal_2eproto,
-  "flyteidl/service/signal.proto", &assign_descriptors_table_flyteidl_2fservice_2fsignal_2eproto, 967,
+  "flyteidl/service/signal.proto", &assign_descriptors_table_flyteidl_2fservice_2fsignal_2eproto, 964,
 };
 
 void AddDescriptors_flyteidl_2fservice_2fsignal_2eproto() {

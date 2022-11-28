@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='flyteidl/admin/version.proto',
   package='flyteidl.admin',
   syntax='proto3',
-  serialized_options=_b('Z5github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/admin'),
-  serialized_pb=_b('\n\x1c\x66lyteidl/admin/version.proto\x12\x0e\x66lyteidl.admin\"L\n\x12GetVersionResponse\x12\x36\n\x15\x63ontrol_plane_version\x18\x01 \x01(\x0b\x32\x17.flyteidl.admin.Version\"<\n\x07Version\x12\r\n\x05\x42uild\x18\x01 \x01(\t\x12\x0f\n\x07Version\x18\x02 \x01(\t\x12\x11\n\tBuildTime\x18\x03 \x01(\t\"\x13\n\x11GetVersionRequestB7Z5github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/adminb\x06proto3')
+  serialized_options=_b('Z2github.com/flyteorg/flyte/gen/pb-go/flyteidl/admin'),
+  serialized_pb=_b('\n\x1c\x66lyteidl/admin/version.proto\x12\x0e\x66lyteidl.admin\"L\n\x12GetVersionResponse\x12\x36\n\x15\x63ontrol_plane_version\x18\x01 \x01(\x0b\x32\x17.flyteidl.admin.Version\"<\n\x07Version\x12\r\n\x05\x42uild\x18\x01 \x01(\t\x12\x0f\n\x07Version\x18\x02 \x01(\t\x12\x11\n\tBuildTime\x18\x03 \x01(\t\"\x13\n\x11GetVersionRequestB4Z2github.com/flyteorg/flyte/gen/pb-go/flyteidl/adminb\x06proto3')
 )
 
 

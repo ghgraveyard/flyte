@@ -532,9 +532,9 @@ public final class Pytorch {
     java.lang.String[] descriptorData = {
       "\n\036flyteidl/plugins/pytorch.proto\022\020flytei" +
       "dl.plugins\"1\n\036DistributedPyTorchTraining" +
-      "Task\022\017\n\007workers\030\001 \001(\005B9Z7github.com/flyt" +
-      "eorg/flyteidl/gen/pb-go/flyteidl/plugins" +
-      "b\006proto3"
+      "Task\022\017\n\007workers\030\001 \001(\005B6Z4github.com/flyt" +
+      "eorg/flyte/gen/pb-go/flyteidl/pluginsb\006p" +
+      "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -45,9 +45,9 @@ public final class Signal {
       "uest that may have failed validation.Je\n" +
       "\003409\022^\n\\Returned for a request that refe" +
       "rences an identical entity that has alre" +
-      "ady been registered.B9Z7github.com/flyte" +
-      "org/flyteidl/gen/pb-go/flyteidl/serviceb" +
-      "\006proto3"
+      "ady been registered.B6Z4github.com/flyte" +
+      "org/flyte/gen/pb-go/flyteidl/serviceb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

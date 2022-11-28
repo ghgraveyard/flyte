@@ -218,14 +218,14 @@ const char descriptor_table_protodef_flyteidl_2fcore_2fsecurity_2eproto[] =
   "yContext\022\'\n\006run_as\030\001 \001(\0132\027.flyteidl.core"
   ".Identity\022&\n\007secrets\030\002 \003(\0132\025.flyteidl.co"
   "re.Secret\0221\n\006tokens\030\003 \003(\0132!.flyteidl.cor"
-  "e.OAuth2TokenRequestB6Z4github.com/flyte"
-  "org/flyteidl/gen/pb-go/flyteidl/coreb\006pr"
-  "oto3"
+  "e.OAuth2TokenRequestB3Z1github.com/flyte"
+  "org/flyte/gen/pb-go/flyteidl/coreb\006proto"
+  "3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fcore_2fsecurity_2eproto = {
   false, InitDefaults_flyteidl_2fcore_2fsecurity_2eproto, 
   descriptor_table_protodef_flyteidl_2fcore_2fsecurity_2eproto,
-  "flyteidl/core/security.proto", &assign_descriptors_table_flyteidl_2fcore_2fsecurity_2eproto, 844,
+  "flyteidl/core/security.proto", &assign_descriptors_table_flyteidl_2fcore_2fsecurity_2eproto, 841,
 };
 
 void AddDescriptors_flyteidl_2fcore_2fsecurity_2eproto() {

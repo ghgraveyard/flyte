@@ -608,13 +608,13 @@ const char descriptor_table_protodef_flyteidl_2fcore_2fworkflow_2eproto[] =
   "B\n\021metadata_defaults\030\007 \001(\0132\'.flyteidl.co"
   "re.WorkflowMetadataDefaults\"@\n\021TaskNodeO"
   "verrides\022+\n\tresources\030\001 \001(\0132\030.flyteidl.c"
-  "ore.ResourcesB6Z4github.com/flyteorg/fly"
-  "teidl/gen/pb-go/flyteidl/coreb\006proto3"
+  "ore.ResourcesB3Z1github.com/flyteorg/fly"
+  "te/gen/pb-go/flyteidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fcore_2fworkflow_2eproto = {
   false, InitDefaults_flyteidl_2fcore_2fworkflow_2eproto, 
   descriptor_table_protodef_flyteidl_2fcore_2fworkflow_2eproto,
-  "flyteidl/core/workflow.proto", &assign_descriptors_table_flyteidl_2fcore_2fworkflow_2eproto, 2677,
+  "flyteidl/core/workflow.proto", &assign_descriptors_table_flyteidl_2fcore_2fworkflow_2eproto, 2674,
 };
 
 void AddDescriptors_flyteidl_2fcore_2fworkflow_2eproto() {

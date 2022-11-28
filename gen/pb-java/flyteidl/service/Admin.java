@@ -407,9 +407,9 @@ public final class Admin {
       "1/description_entities/{resource_type}/{" +
       "id.project}/{id.domain}\222AG\032EFetch existi" +
       "ng description entity definitions matchi" +
-      "ng input filters.B9Z7github.com/flyteorg" +
-      "/flyteidl/gen/pb-go/flyteidl/serviceb\006pr" +
-      "oto3"
+      "ng input filters.B6Z4github.com/flyteorg" +
+      "/flyte/gen/pb-go/flyteidl/serviceb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

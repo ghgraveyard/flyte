@@ -12819,8 +12819,8 @@ public final class Types {
       "\nSimpleType\022\010\n\004NONE\020\000\022\013\n\007INTEGER\020\001\022\t\n\005FL" +
       "OAT\020\002\022\n\n\006STRING\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010DATETI" +
       "ME\020\005\022\014\n\010DURATION\020\006\022\n\n\006BINARY\020\007\022\t\n\005ERROR\020" +
-      "\010\022\n\n\006STRUCT\020\tB6Z4github.com/flyteorg/fly" +
-      "teidl/gen/pb-go/flyteidl/coreb\006proto3"
+      "\010\022\n\n\006STRUCT\020\tB3Z1github.com/flyteorg/fly" +
+      "te/gen/pb-go/flyteidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

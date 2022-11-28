@@ -192,13 +192,13 @@ const char descriptor_table_protodef_flyteidl_2fservice_2fauth_2eproto[] =
   "figResponse\"p\202\323\344\223\002\031\022\027/config/v1/flyte_cl"
   "ient\222AN\032LRetrieves public flyte client i"
   "nfo. This endpoint is anonymously access"
-  "ible.B9Z7github.com/flyteorg/flyteidl/ge"
-  "n/pb-go/flyteidl/serviceb\006proto3"
+  "ible.B6Z4github.com/flyteorg/flyte/gen/p"
+  "b-go/flyteidl/serviceb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fservice_2fauth_2eproto = {
   false, InitDefaults_flyteidl_2fservice_2fauth_2eproto, 
   descriptor_table_protodef_flyteidl_2fservice_2fauth_2eproto,
-  "flyteidl/service/auth.proto", &assign_descriptors_table_flyteidl_2fservice_2fauth_2eproto, 1272,
+  "flyteidl/service/auth.proto", &assign_descriptors_table_flyteidl_2fservice_2fauth_2eproto, 1269,
 };
 
 void AddDescriptors_flyteidl_2fservice_2fauth_2eproto() {

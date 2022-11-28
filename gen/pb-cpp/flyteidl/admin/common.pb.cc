@@ -818,14 +818,14 @@ const char descriptor_table_protodef_flyteidl_2fadmin_2fcommon_2eproto[] =
   "\t:\002\030\001\"5\n\023RawOutputDataConfig\022\036\n\026output_l"
   "ocation_prefix\030\001 \001(\t*\\\n\020NamedEntityState"
   "\022\027\n\023NAMED_ENTITY_ACTIVE\020\000\022\031\n\025NAMED_ENTIT"
-  "Y_ARCHIVED\020\001\022\024\n\020SYSTEM_GENERATED\020\002B7Z5gi"
-  "thub.com/flyteorg/flyteidl/gen/pb-go/fly"
-  "teidl/adminb\006proto3"
+  "Y_ARCHIVED\020\001\022\024\n\020SYSTEM_GENERATED\020\002B4Z2gi"
+  "thub.com/flyteorg/flyte/gen/pb-go/flytei"
+  "dl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fadmin_2fcommon_2eproto = {
   false, InitDefaults_flyteidl_2fadmin_2fcommon_2eproto, 
   descriptor_table_protodef_flyteidl_2fadmin_2fcommon_2eproto,
-  "flyteidl/admin/common.proto", &assign_descriptors_table_flyteidl_2fadmin_2fcommon_2eproto, 2619,
+  "flyteidl/admin/common.proto", &assign_descriptors_table_flyteidl_2fadmin_2fcommon_2eproto, 2616,
 };
 
 void AddDescriptors_flyteidl_2fadmin_2fcommon_2eproto() {

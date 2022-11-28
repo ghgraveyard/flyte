@@ -1469,7 +1469,7 @@ public final class TaskOuterClass {
    * <pre>
    * Flyte workflows are composed of many ordered tasks. That is small, reusable, self-contained logical blocks
    * arranged to process workflow inputs and produce a deterministic set of outputs.
-   * Tasks can come in many varieties tuned for specialized behavior. 
+   * Tasks can come in many varieties tuned for specialized behavior.
    * </pre>
    *
    * Protobuf type {@code flyteidl.admin.Task}
@@ -1873,7 +1873,7 @@ public final class TaskOuterClass {
      * <pre>
      * Flyte workflows are composed of many ordered tasks. That is small, reusable, self-contained logical blocks
      * arranged to process workflow inputs and produce a deterministic set of outputs.
-     * Tasks can come in many varieties tuned for specialized behavior. 
+     * Tasks can come in many varieties tuned for specialized behavior.
      * </pre>
      *
      * Protobuf type {@code flyteidl.admin.Task}
@@ -5501,9 +5501,9 @@ public final class TaskOuterClass {
       "idl.admin.DescriptionEntity\"q\n\013TaskClosu" +
       "re\0222\n\rcompiled_task\030\001 \001(\0132\033.flyteidl.cor" +
       "e.CompiledTask\022.\n\ncreated_at\030\002 \001(\0132\032.goo" +
-      "gle.protobuf.TimestampB7Z5github.com/fly" +
-      "teorg/flyteidl/gen/pb-go/flyteidl/adminb" +
-      "\006proto3"
+      "gle.protobuf.TimestampB4Z2github.com/fly" +
+      "teorg/flyte/gen/pb-go/flyteidl/adminb\006pr" +
+      "oto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -10389,8 +10389,8 @@ public final class TaskExecutionOuterClass {
       "\0132\027.flyteidl.admin.UrlBlobB\002\030\001\022.\n\013full_i" +
       "nputs\030\003 \001(\0132\031.flyteidl.core.LiteralMap\022/" +
       "\n\014full_outputs\030\004 \001(\0132\031.flyteidl.core.Lit" +
-      "eralMapB7Z5github.com/flyteorg/flyteidl/" +
-      "gen/pb-go/flyteidl/adminb\006proto3"
+      "eralMapB4Z2github.com/flyteorg/flyte/gen" +
+      "/pb-go/flyteidl/adminb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

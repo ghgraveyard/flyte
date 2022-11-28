@@ -421,14 +421,14 @@ const char descriptor_table_protodef_flyteidl_2fservice_2fadmin_2eproto[] =
   "1/description_entities/{resource_type}/{"
   "id.project}/{id.domain}\222AG\032EFetch existi"
   "ng description entity definitions matchi"
-  "ng input filters.B9Z7github.com/flyteorg"
-  "/flyteidl/gen/pb-go/flyteidl/serviceb\006pr"
-  "oto3"
+  "ng input filters.B6Z4github.com/flyteorg"
+  "/flyte/gen/pb-go/flyteidl/serviceb\006proto"
+  "3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fservice_2fadmin_2eproto = {
   false, InitDefaults_flyteidl_2fservice_2fadmin_2eproto, 
   descriptor_table_protodef_flyteidl_2fservice_2fadmin_2eproto,
-  "flyteidl/service/admin.proto", &assign_descriptors_table_flyteidl_2fservice_2fadmin_2eproto, 15444,
+  "flyteidl/service/admin.proto", &assign_descriptors_table_flyteidl_2fservice_2fadmin_2eproto, 15441,
 };
 
 void AddDescriptors_flyteidl_2fservice_2fadmin_2eproto() {

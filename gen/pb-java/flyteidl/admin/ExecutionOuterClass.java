@@ -1722,17 +1722,6 @@ public final class ExecutionOuterClass {
      */
     com.google.protobuf.ByteString
         getNameBytes();
-
-    /**
-     * <pre>
-     * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-     * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-     * data once execution finishes successfully.
-     * </pre>
-     *
-     * <code>bool overwrite_cache = 4;</code>
-     */
-    boolean getOverwriteCache();
   }
   /**
    * <pre>
@@ -1795,11 +1784,6 @@ public final class ExecutionOuterClass {
               java.lang.String s = input.readStringRequireUtf8();
 
               name_ = s;
-              break;
-            }
-            case 32: {
-
-              overwriteCache_ = input.readBool();
               break;
             }
             default: {
@@ -1916,21 +1900,6 @@ public final class ExecutionOuterClass {
       }
     }
 
-    public static final int OVERWRITE_CACHE_FIELD_NUMBER = 4;
-    private boolean overwriteCache_;
-    /**
-     * <pre>
-     * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-     * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-     * data once execution finishes successfully.
-     * </pre>
-     *
-     * <code>bool overwrite_cache = 4;</code>
-     */
-    public boolean getOverwriteCache() {
-      return overwriteCache_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -1951,9 +1920,6 @@ public final class ExecutionOuterClass {
       if (!getNameBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, name_);
       }
-      if (overwriteCache_ != false) {
-        output.writeBool(4, overwriteCache_);
-      }
       unknownFields.writeTo(output);
     }
 
@@ -1969,10 +1935,6 @@ public final class ExecutionOuterClass {
       }
       if (!getNameBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, name_);
-      }
-      if (overwriteCache_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, overwriteCache_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1996,8 +1958,6 @@ public final class ExecutionOuterClass {
       }
       if (!getName()
           .equals(other.getName())) return false;
-      if (getOverwriteCache()
-          != other.getOverwriteCache()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -2015,9 +1975,6 @@ public final class ExecutionOuterClass {
       }
       hash = (37 * hash) + NAME_FIELD_NUMBER;
       hash = (53 * hash) + getName().hashCode();
-      hash = (37 * hash) + OVERWRITE_CACHE_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getOverwriteCache());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -2163,8 +2120,6 @@ public final class ExecutionOuterClass {
         }
         name_ = "";
 
-        overwriteCache_ = false;
-
         return this;
       }
 
@@ -2197,7 +2152,6 @@ public final class ExecutionOuterClass {
           result.id_ = idBuilder_.build();
         }
         result.name_ = name_;
-        result.overwriteCache_ = overwriteCache_;
         onBuilt();
         return result;
       }
@@ -2252,9 +2206,6 @@ public final class ExecutionOuterClass {
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           onChanged();
-        }
-        if (other.getOverwriteCache() != false) {
-          setOverwriteCache(other.getOverwriteCache());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -2542,50 +2493,6 @@ public final class ExecutionOuterClass {
   checkByteStringIsUtf8(value);
         
         name_ = value;
-        onChanged();
-        return this;
-      }
-
-      private boolean overwriteCache_ ;
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 4;</code>
-       */
-      public boolean getOverwriteCache() {
-        return overwriteCache_;
-      }
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 4;</code>
-       */
-      public Builder setOverwriteCache(boolean value) {
-        
-        overwriteCache_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 4;</code>
-       */
-      public Builder clearOverwriteCache() {
-        
-        overwriteCache_ = false;
         onChanged();
         return this;
       }
@@ -16992,17 +16899,6 @@ public final class ExecutionOuterClass {
      */
     com.google.protobuf.BoolValueOrBuilder getInterruptibleOrBuilder();
 
-    /**
-     * <pre>
-     * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-     * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-     * data once execution finishes successfully.
-     * </pre>
-     *
-     * <code>bool overwrite_cache = 22;</code>
-     */
-    boolean getOverwriteCache();
-
     public flyteidl.admin.ExecutionOuterClass.ExecutionSpec.NotificationOverridesCase getNotificationOverridesCase();
   }
   /**
@@ -17214,11 +17110,6 @@ public final class ExecutionOuterClass {
                 interruptible_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 176: {
-
-              overwriteCache_ = input.readBool();
               break;
             }
             default: {
@@ -17740,21 +17631,6 @@ public final class ExecutionOuterClass {
       return getInterruptible();
     }
 
-    public static final int OVERWRITE_CACHE_FIELD_NUMBER = 22;
-    private boolean overwriteCache_;
-    /**
-     * <pre>
-     * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-     * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-     * data once execution finishes successfully.
-     * </pre>
-     *
-     * <code>bool overwrite_cache = 22;</code>
-     */
-    public boolean getOverwriteCache() {
-      return overwriteCache_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -17811,9 +17687,6 @@ public final class ExecutionOuterClass {
       }
       if (interruptible_ != null) {
         output.writeMessage(21, getInterruptible());
-      }
-      if (overwriteCache_ != false) {
-        output.writeBool(22, overwriteCache_);
       }
       unknownFields.writeTo(output);
     }
@@ -17880,10 +17753,6 @@ public final class ExecutionOuterClass {
       if (interruptible_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(21, getInterruptible());
-      }
-      if (overwriteCache_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(22, overwriteCache_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -17957,8 +17826,6 @@ public final class ExecutionOuterClass {
         if (!getInterruptible()
             .equals(other.getInterruptible())) return false;
       }
-      if (getOverwriteCache()
-          != other.getOverwriteCache()) return false;
       if (!getNotificationOverridesCase().equals(other.getNotificationOverridesCase())) return false;
       switch (notificationOverridesCase_) {
         case 5:
@@ -18029,9 +17896,6 @@ public final class ExecutionOuterClass {
         hash = (37 * hash) + INTERRUPTIBLE_FIELD_NUMBER;
         hash = (53 * hash) + getInterruptible().hashCode();
       }
-      hash = (37 * hash) + OVERWRITE_CACHE_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getOverwriteCache());
       switch (notificationOverridesCase_) {
         case 5:
           hash = (37 * hash) + NOTIFICATIONS_FIELD_NUMBER;
@@ -18251,8 +18115,6 @@ public final class ExecutionOuterClass {
           interruptible_ = null;
           interruptibleBuilder_ = null;
         }
-        overwriteCache_ = false;
-
         notificationOverridesCase_ = 0;
         notificationOverrides_ = null;
         return this;
@@ -18347,7 +18209,6 @@ public final class ExecutionOuterClass {
         } else {
           result.interruptible_ = interruptibleBuilder_.build();
         }
-        result.overwriteCache_ = overwriteCache_;
         result.notificationOverridesCase_ = notificationOverridesCase_;
         onBuilt();
         return result;
@@ -18432,9 +18293,6 @@ public final class ExecutionOuterClass {
         }
         if (other.hasInterruptible()) {
           mergeInterruptible(other.getInterruptible());
-        }
-        if (other.getOverwriteCache() != false) {
-          setOverwriteCache(other.getOverwriteCache());
         }
         switch (other.getNotificationOverridesCase()) {
           case NOTIFICATIONS: {
@@ -20486,50 +20344,6 @@ public final class ExecutionOuterClass {
           interruptible_ = null;
         }
         return interruptibleBuilder_;
-      }
-
-      private boolean overwriteCache_ ;
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 22;</code>
-       */
-      public boolean getOverwriteCache() {
-        return overwriteCache_;
-      }
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 22;</code>
-       */
-      public Builder setOverwriteCache(boolean value) {
-        
-        overwriteCache_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       * Allows for all cached values of a workflow and its tasks to be overwritten for a single execution.
-       * If enabled, all calculations are performed even if cached results would be available, overwriting the stored
-       * data once execution finishes successfully.
-       * </pre>
-       *
-       * <code>bool overwrite_cache = 22;</code>
-       */
-      public Builder clearOverwriteCache() {
-        
-        overwriteCache_ = false;
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -26302,103 +26116,101 @@ public final class ExecutionOuterClass {
       "quest\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\014" +
       "\n\004name\030\003 \001(\t\022+\n\004spec\030\004 \001(\0132\035.flyteidl.ad" +
       "min.ExecutionSpec\022)\n\006inputs\030\005 \001(\0132\031.flyt" +
-      "eidl.core.LiteralMap\"\177\n\030ExecutionRelaunc" +
+      "eidl.core.LiteralMap\"`\n\030ExecutionRelaunc" +
       "hRequest\0226\n\002id\030\001 \001(\0132*.flyteidl.core.Wor" +
-      "kflowExecutionIdentifier\022\014\n\004name\030\003 \001(\t\022\027" +
-      "\n\017overwrite_cache\030\004 \001(\010J\004\010\002\020\003\"\224\001\n\027Execut" +
-      "ionRecoverRequest\0226\n\002id\030\001 \001(\0132*.flyteidl" +
-      ".core.WorkflowExecutionIdentifier\022\014\n\004nam" +
-      "e\030\002 \001(\t\0223\n\010metadata\030\003 \001(\0132!.flyteidl.adm" +
-      "in.ExecutionMetadata\"Q\n\027ExecutionCreateR" +
-      "esponse\0226\n\002id\030\001 \001(\0132*.flyteidl.core.Work" +
-      "flowExecutionIdentifier\"U\n\033WorkflowExecu" +
-      "tionGetRequest\0226\n\002id\030\001 \001(\0132*.flyteidl.co" +
-      "re.WorkflowExecutionIdentifier\"\243\001\n\tExecu" +
-      "tion\0226\n\002id\030\001 \001(\0132*.flyteidl.core.Workflo" +
-      "wExecutionIdentifier\022+\n\004spec\030\002 \001(\0132\035.fly" +
-      "teidl.admin.ExecutionSpec\0221\n\007closure\030\003 \001" +
-      "(\0132 .flyteidl.admin.ExecutionClosure\"M\n\r" +
-      "ExecutionList\022-\n\nexecutions\030\001 \003(\0132\031.flyt" +
-      "eidl.admin.Execution\022\r\n\005token\030\002 \001(\t\"X\n\016L" +
-      "iteralMapBlob\022/\n\006values\030\001 \001(\0132\031.flyteidl" +
-      ".core.LiteralMapB\002\030\001H\000\022\r\n\003uri\030\002 \001(\tH\000B\006\n" +
-      "\004data\"1\n\rAbortMetadata\022\r\n\005cause\030\001 \001(\t\022\021\n" +
-      "\tprincipal\030\002 \001(\t\"\360\005\n\020ExecutionClosure\0225\n" +
-      "\007outputs\030\001 \001(\0132\036.flyteidl.admin.LiteralM" +
-      "apBlobB\002\030\001H\000\022.\n\005error\030\002 \001(\0132\035.flyteidl.c" +
-      "ore.ExecutionErrorH\000\022\031\n\013abort_cause\030\n \001(" +
-      "\tB\002\030\001H\000\0227\n\016abort_metadata\030\014 \001(\0132\035.flytei" +
-      "dl.admin.AbortMetadataH\000\0224\n\013output_data\030" +
-      "\r \001(\0132\031.flyteidl.core.LiteralMapB\002\030\001H\000\0226" +
-      "\n\017computed_inputs\030\003 \001(\0132\031.flyteidl.core." +
-      "LiteralMapB\002\030\001\0225\n\005phase\030\004 \001(\0162&.flyteidl" +
-      ".core.WorkflowExecution.Phase\022.\n\nstarted" +
-      "_at\030\005 \001(\0132\032.google.protobuf.Timestamp\022+\n" +
-      "\010duration\030\006 \001(\0132\031.google.protobuf.Durati" +
-      "on\022.\n\ncreated_at\030\007 \001(\0132\032.google.protobuf" +
-      ".Timestamp\022.\n\nupdated_at\030\010 \001(\0132\032.google." +
-      "protobuf.Timestamp\0223\n\rnotifications\030\t \003(" +
-      "\0132\034.flyteidl.admin.Notification\022.\n\013workf" +
-      "low_id\030\013 \001(\0132\031.flyteidl.core.Identifier\022" +
-      "I\n\024state_change_details\030\016 \001(\0132+.flyteidl" +
-      ".admin.ExecutionStateChangeDetailsB\017\n\rou" +
-      "tput_result\"+\n\016SystemMetadata\022\031\n\021executi" +
-      "on_cluster\030\001 \001(\t\"\332\003\n\021ExecutionMetadata\022=" +
-      "\n\004mode\030\001 \001(\0162/.flyteidl.admin.ExecutionM" +
-      "etadata.ExecutionMode\022\021\n\tprincipal\030\002 \001(\t" +
-      "\022\017\n\007nesting\030\003 \001(\r\0220\n\014scheduled_at\030\004 \001(\0132" +
-      "\032.google.protobuf.Timestamp\022E\n\025parent_no" +
-      "de_execution\030\005 \001(\0132&.flyteidl.core.NodeE" +
-      "xecutionIdentifier\022G\n\023reference_executio" +
-      "n\030\020 \001(\0132*.flyteidl.core.WorkflowExecutio" +
-      "nIdentifier\0227\n\017system_metadata\030\021 \001(\0132\036.f" +
-      "lyteidl.admin.SystemMetadata\"g\n\rExecutio" +
-      "nMode\022\n\n\006MANUAL\020\000\022\r\n\tSCHEDULED\020\001\022\n\n\006SYST" +
-      "EM\020\002\022\014\n\010RELAUNCH\020\003\022\022\n\016CHILD_WORKFLOW\020\004\022\r" +
-      "\n\tRECOVERED\020\005\"G\n\020NotificationList\0223\n\rnot" +
-      "ifications\030\001 \003(\0132\034.flyteidl.admin.Notifi" +
-      "cation\"\200\006\n\rExecutionSpec\022.\n\013launch_plan\030" +
-      "\001 \001(\0132\031.flyteidl.core.Identifier\022-\n\006inpu" +
-      "ts\030\002 \001(\0132\031.flyteidl.core.LiteralMapB\002\030\001\022" +
-      "3\n\010metadata\030\003 \001(\0132!.flyteidl.admin.Execu" +
-      "tionMetadata\0229\n\rnotifications\030\005 \001(\0132 .fl" +
-      "yteidl.admin.NotificationListH\000\022\025\n\013disab" +
-      "le_all\030\006 \001(\010H\000\022&\n\006labels\030\007 \001(\0132\026.flyteid" +
-      "l.admin.Labels\0220\n\013annotations\030\010 \001(\0132\033.fl" +
-      "yteidl.admin.Annotations\0228\n\020security_con" +
-      "text\030\n \001(\0132\036.flyteidl.core.SecurityConte" +
-      "xt\022/\n\tauth_role\030\020 \001(\0132\030.flyteidl.admin.A" +
-      "uthRoleB\002\030\001\022;\n\022quality_of_service\030\021 \001(\0132" +
-      "\037.flyteidl.core.QualityOfService\022\027\n\017max_" +
-      "parallelism\030\022 \001(\005\022C\n\026raw_output_data_con" +
-      "fig\030\023 \001(\0132#.flyteidl.admin.RawOutputData" +
-      "Config\022=\n\022cluster_assignment\030\024 \001(\0132!.fly" +
-      "teidl.admin.ClusterAssignment\0221\n\rinterru" +
-      "ptible\030\025 \001(\0132\032.google.protobuf.BoolValue" +
-      "\022\027\n\017overwrite_cache\030\026 \001(\010B\030\n\026notificatio" +
-      "n_overridesJ\004\010\004\020\005\"b\n\031ExecutionTerminateR" +
+      "kflowExecutionIdentifier\022\014\n\004name\030\003 \001(\t\"\224" +
+      "\001\n\027ExecutionRecoverRequest\0226\n\002id\030\001 \001(\0132*" +
+      ".flyteidl.core.WorkflowExecutionIdentifi" +
+      "er\022\014\n\004name\030\002 \001(\t\0223\n\010metadata\030\003 \001(\0132!.fly" +
+      "teidl.admin.ExecutionMetadata\"Q\n\027Executi" +
+      "onCreateResponse\0226\n\002id\030\001 \001(\0132*.flyteidl." +
+      "core.WorkflowExecutionIdentifier\"U\n\033Work" +
+      "flowExecutionGetRequest\0226\n\002id\030\001 \001(\0132*.fl" +
+      "yteidl.core.WorkflowExecutionIdentifier\"" +
+      "\243\001\n\tExecution\0226\n\002id\030\001 \001(\0132*.flyteidl.cor" +
+      "e.WorkflowExecutionIdentifier\022+\n\004spec\030\002 " +
+      "\001(\0132\035.flyteidl.admin.ExecutionSpec\0221\n\007cl" +
+      "osure\030\003 \001(\0132 .flyteidl.admin.ExecutionCl" +
+      "osure\"M\n\rExecutionList\022-\n\nexecutions\030\001 \003" +
+      "(\0132\031.flyteidl.admin.Execution\022\r\n\005token\030\002" +
+      " \001(\t\"X\n\016LiteralMapBlob\022/\n\006values\030\001 \001(\0132\031" +
+      ".flyteidl.core.LiteralMapB\002\030\001H\000\022\r\n\003uri\030\002" +
+      " \001(\tH\000B\006\n\004data\"1\n\rAbortMetadata\022\r\n\005cause" +
+      "\030\001 \001(\t\022\021\n\tprincipal\030\002 \001(\t\"\360\005\n\020ExecutionC" +
+      "losure\0225\n\007outputs\030\001 \001(\0132\036.flyteidl.admin" +
+      ".LiteralMapBlobB\002\030\001H\000\022.\n\005error\030\002 \001(\0132\035.f" +
+      "lyteidl.core.ExecutionErrorH\000\022\031\n\013abort_c" +
+      "ause\030\n \001(\tB\002\030\001H\000\0227\n\016abort_metadata\030\014 \001(\013" +
+      "2\035.flyteidl.admin.AbortMetadataH\000\0224\n\013out" +
+      "put_data\030\r \001(\0132\031.flyteidl.core.LiteralMa" +
+      "pB\002\030\001H\000\0226\n\017computed_inputs\030\003 \001(\0132\031.flyte" +
+      "idl.core.LiteralMapB\002\030\001\0225\n\005phase\030\004 \001(\0162&" +
+      ".flyteidl.core.WorkflowExecution.Phase\022." +
+      "\n\nstarted_at\030\005 \001(\0132\032.google.protobuf.Tim" +
+      "estamp\022+\n\010duration\030\006 \001(\0132\031.google.protob" +
+      "uf.Duration\022.\n\ncreated_at\030\007 \001(\0132\032.google" +
+      ".protobuf.Timestamp\022.\n\nupdated_at\030\010 \001(\0132" +
+      "\032.google.protobuf.Timestamp\0223\n\rnotificat" +
+      "ions\030\t \003(\0132\034.flyteidl.admin.Notification" +
+      "\022.\n\013workflow_id\030\013 \001(\0132\031.flyteidl.core.Id" +
+      "entifier\022I\n\024state_change_details\030\016 \001(\0132+" +
+      ".flyteidl.admin.ExecutionStateChangeDeta" +
+      "ilsB\017\n\routput_result\"+\n\016SystemMetadata\022\031" +
+      "\n\021execution_cluster\030\001 \001(\t\"\332\003\n\021ExecutionM" +
+      "etadata\022=\n\004mode\030\001 \001(\0162/.flyteidl.admin.E" +
+      "xecutionMetadata.ExecutionMode\022\021\n\tprinci" +
+      "pal\030\002 \001(\t\022\017\n\007nesting\030\003 \001(\r\0220\n\014scheduled_" +
+      "at\030\004 \001(\0132\032.google.protobuf.Timestamp\022E\n\025" +
+      "parent_node_execution\030\005 \001(\0132&.flyteidl.c" +
+      "ore.NodeExecutionIdentifier\022G\n\023reference" +
+      "_execution\030\020 \001(\0132*.flyteidl.core.Workflo" +
+      "wExecutionIdentifier\0227\n\017system_metadata\030" +
+      "\021 \001(\0132\036.flyteidl.admin.SystemMetadata\"g\n" +
+      "\rExecutionMode\022\n\n\006MANUAL\020\000\022\r\n\tSCHEDULED\020" +
+      "\001\022\n\n\006SYSTEM\020\002\022\014\n\010RELAUNCH\020\003\022\022\n\016CHILD_WOR" +
+      "KFLOW\020\004\022\r\n\tRECOVERED\020\005\"G\n\020NotificationLi" +
+      "st\0223\n\rnotifications\030\001 \003(\0132\034.flyteidl.adm" +
+      "in.Notification\"\347\005\n\rExecutionSpec\022.\n\013lau" +
+      "nch_plan\030\001 \001(\0132\031.flyteidl.core.Identifie" +
+      "r\022-\n\006inputs\030\002 \001(\0132\031.flyteidl.core.Litera" +
+      "lMapB\002\030\001\0223\n\010metadata\030\003 \001(\0132!.flyteidl.ad" +
+      "min.ExecutionMetadata\0229\n\rnotifications\030\005" +
+      " \001(\0132 .flyteidl.admin.NotificationListH\000" +
+      "\022\025\n\013disable_all\030\006 \001(\010H\000\022&\n\006labels\030\007 \001(\0132" +
+      "\026.flyteidl.admin.Labels\0220\n\013annotations\030\010" +
+      " \001(\0132\033.flyteidl.admin.Annotations\0228\n\020sec" +
+      "urity_context\030\n \001(\0132\036.flyteidl.core.Secu" +
+      "rityContext\022/\n\tauth_role\030\020 \001(\0132\030.flyteid" +
+      "l.admin.AuthRoleB\002\030\001\022;\n\022quality_of_servi" +
+      "ce\030\021 \001(\0132\037.flyteidl.core.QualityOfServic" +
+      "e\022\027\n\017max_parallelism\030\022 \001(\005\022C\n\026raw_output" +
+      "_data_config\030\023 \001(\0132#.flyteidl.admin.RawO" +
+      "utputDataConfig\022=\n\022cluster_assignment\030\024 " +
+      "\001(\0132!.flyteidl.admin.ClusterAssignment\0221" +
+      "\n\rinterruptible\030\025 \001(\0132\032.google.protobuf." +
+      "BoolValueB\030\n\026notification_overridesJ\004\010\004\020" +
+      "\005\"b\n\031ExecutionTerminateRequest\0226\n\002id\030\001 \001" +
+      "(\0132*.flyteidl.core.WorkflowExecutionIden" +
+      "tifier\022\r\n\005cause\030\002 \001(\t\"\034\n\032ExecutionTermin" +
+      "ateResponse\"Y\n\037WorkflowExecutionGetDataR" +
       "equest\0226\n\002id\030\001 \001(\0132*.flyteidl.core.Workf" +
-      "lowExecutionIdentifier\022\r\n\005cause\030\002 \001(\t\"\034\n" +
-      "\032ExecutionTerminateResponse\"Y\n\037WorkflowE" +
-      "xecutionGetDataRequest\0226\n\002id\030\001 \001(\0132*.fly" +
-      "teidl.core.WorkflowExecutionIdentifier\"\336" +
-      "\001\n WorkflowExecutionGetDataResponse\022,\n\007o" +
-      "utputs\030\001 \001(\0132\027.flyteidl.admin.UrlBlobB\002\030" +
-      "\001\022+\n\006inputs\030\002 \001(\0132\027.flyteidl.admin.UrlBl" +
-      "obB\002\030\001\022.\n\013full_inputs\030\003 \001(\0132\031.flyteidl.c" +
-      "ore.LiteralMap\022/\n\014full_outputs\030\004 \001(\0132\031.f" +
-      "lyteidl.core.LiteralMap\"\177\n\026ExecutionUpda" +
-      "teRequest\0226\n\002id\030\001 \001(\0132*.flyteidl.core.Wo" +
-      "rkflowExecutionIdentifier\022-\n\005state\030\002 \001(\016" +
-      "2\036.flyteidl.admin.ExecutionState\"\220\001\n\033Exe" +
-      "cutionStateChangeDetails\022-\n\005state\030\001 \001(\0162" +
-      "\036.flyteidl.admin.ExecutionState\022/\n\013occur" +
-      "red_at\030\002 \001(\0132\032.google.protobuf.Timestamp" +
-      "\022\021\n\tprincipal\030\003 \001(\t\"\031\n\027ExecutionUpdateRe" +
-      "sponse*>\n\016ExecutionState\022\024\n\020EXECUTION_AC" +
-      "TIVE\020\000\022\026\n\022EXECUTION_ARCHIVED\020\001B7Z5github" +
-      ".com/flyteorg/flyteidl/gen/pb-go/flyteid" +
-      "l/adminb\006proto3"
+      "lowExecutionIdentifier\"\336\001\n WorkflowExecu" +
+      "tionGetDataResponse\022,\n\007outputs\030\001 \001(\0132\027.f" +
+      "lyteidl.admin.UrlBlobB\002\030\001\022+\n\006inputs\030\002 \001(" +
+      "\0132\027.flyteidl.admin.UrlBlobB\002\030\001\022.\n\013full_i" +
+      "nputs\030\003 \001(\0132\031.flyteidl.core.LiteralMap\022/" +
+      "\n\014full_outputs\030\004 \001(\0132\031.flyteidl.core.Lit" +
+      "eralMap\"\177\n\026ExecutionUpdateRequest\0226\n\002id\030" +
+      "\001 \001(\0132*.flyteidl.core.WorkflowExecutionI" +
+      "dentifier\022-\n\005state\030\002 \001(\0162\036.flyteidl.admi" +
+      "n.ExecutionState\"\220\001\n\033ExecutionStateChang" +
+      "eDetails\022-\n\005state\030\001 \001(\0162\036.flyteidl.admin" +
+      ".ExecutionState\022/\n\013occurred_at\030\002 \001(\0132\032.g" +
+      "oogle.protobuf.Timestamp\022\021\n\tprincipal\030\003 " +
+      "\001(\t\"\031\n\027ExecutionUpdateResponse*>\n\016Execut" +
+      "ionState\022\024\n\020EXECUTION_ACTIVE\020\000\022\026\n\022EXECUT" +
+      "ION_ARCHIVED\020\001B4Z2github.com/flyteorg/fl" +
+      "yte/gen/pb-go/flyteidl/adminb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -26432,7 +26244,7 @@ public final class ExecutionOuterClass {
     internal_static_flyteidl_admin_ExecutionRelaunchRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_flyteidl_admin_ExecutionRelaunchRequest_descriptor,
-        new java.lang.String[] { "Id", "Name", "OverwriteCache", });
+        new java.lang.String[] { "Id", "Name", });
     internal_static_flyteidl_admin_ExecutionRecoverRequest_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_flyteidl_admin_ExecutionRecoverRequest_fieldAccessorTable = new
@@ -26504,7 +26316,7 @@ public final class ExecutionOuterClass {
     internal_static_flyteidl_admin_ExecutionSpec_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_flyteidl_admin_ExecutionSpec_descriptor,
-        new java.lang.String[] { "LaunchPlan", "Inputs", "Metadata", "Notifications", "DisableAll", "Labels", "Annotations", "SecurityContext", "AuthRole", "QualityOfService", "MaxParallelism", "RawOutputDataConfig", "ClusterAssignment", "Interruptible", "OverwriteCache", "NotificationOverrides", });
+        new java.lang.String[] { "LaunchPlan", "Inputs", "Metadata", "Notifications", "DisableAll", "Labels", "Annotations", "SecurityContext", "AuthRole", "QualityOfService", "MaxParallelism", "RawOutputDataConfig", "ClusterAssignment", "Interruptible", "NotificationOverrides", });
     internal_static_flyteidl_admin_ExecutionTerminateRequest_descriptor =
       getDescriptor().getMessageTypes().get(14);
     internal_static_flyteidl_admin_ExecutionTerminateRequest_fieldAccessorTable = new

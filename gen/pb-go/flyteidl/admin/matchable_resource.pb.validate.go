@@ -612,8 +612,6 @@ func (m *WorkflowExecutionConfig) Validate() error {
 		}
 	}
 
-	// no validation rules for OverwriteCache
-
 	return nil
 }
 

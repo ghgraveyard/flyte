@@ -14340,7 +14340,7 @@ public final class Workflow {
 
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -14348,7 +14348,7 @@ public final class Workflow {
     boolean hasQualityOfService();
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -14356,7 +14356,7 @@ public final class Workflow {
     flyteidl.core.Execution.QualityOfService getQualityOfService();
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -14608,7 +14608,7 @@ public final class Workflow {
     private flyteidl.core.Execution.QualityOfService qualityOfService_;
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -14618,7 +14618,7 @@ public final class Workflow {
     }
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -14628,7 +14628,7 @@ public final class Workflow {
     }
     /**
      * <pre>
-     * Indicates the runtime priority of workflow executions. 
+     * Indicates the runtime priority of workflow executions.
      * </pre>
      *
      * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15003,7 +15003,7 @@ public final class Workflow {
           flyteidl.core.Execution.QualityOfService, flyteidl.core.Execution.QualityOfService.Builder, flyteidl.core.Execution.QualityOfServiceOrBuilder> qualityOfServiceBuilder_;
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15013,7 +15013,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15027,7 +15027,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15047,7 +15047,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15065,7 +15065,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15087,7 +15087,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15105,7 +15105,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15117,7 +15117,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -15132,7 +15132,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * Indicates the runtime priority of workflow executions. 
+       * Indicates the runtime priority of workflow executions.
        * </pre>
        *
        * <code>.flyteidl.core.QualityOfService quality_of_service = 1;</code>
@@ -18640,7 +18640,7 @@ public final class Workflow {
 
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -18648,7 +18648,7 @@ public final class Workflow {
     boolean hasResources();
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -18656,7 +18656,7 @@ public final class Workflow {
     flyteidl.core.Tasks.Resources getResources();
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -18755,7 +18755,7 @@ public final class Workflow {
     private flyteidl.core.Tasks.Resources resources_;
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -18765,7 +18765,7 @@ public final class Workflow {
     }
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -18775,7 +18775,7 @@ public final class Workflow {
     }
     /**
      * <pre>
-     * A customizable interface to convey resources requested for a task container. 
+     * A customizable interface to convey resources requested for a task container.
      * </pre>
      *
      * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19108,7 +19108,7 @@ public final class Workflow {
           flyteidl.core.Tasks.Resources, flyteidl.core.Tasks.Resources.Builder, flyteidl.core.Tasks.ResourcesOrBuilder> resourcesBuilder_;
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19118,7 +19118,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19132,7 +19132,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19152,7 +19152,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19170,7 +19170,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19192,7 +19192,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19210,7 +19210,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19222,7 +19222,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19237,7 +19237,7 @@ public final class Workflow {
       }
       /**
        * <pre>
-       * A customizable interface to convey resources requested for a task container. 
+       * A customizable interface to convey resources requested for a task container.
        * </pre>
        *
        * <code>.flyteidl.core.Resources resources = 1;</code>
@@ -19462,8 +19462,8 @@ public final class Workflow {
       "B\n\021metadata_defaults\030\007 \001(\0132\'.flyteidl.co" +
       "re.WorkflowMetadataDefaults\"@\n\021TaskNodeO" +
       "verrides\022+\n\tresources\030\001 \001(\0132\030.flyteidl.c" +
-      "ore.ResourcesB6Z4github.com/flyteorg/fly" +
-      "teidl/gen/pb-go/flyteidl/coreb\006proto3"
+      "ore.ResourcesB3Z1github.com/flyteorg/fly" +
+      "te/gen/pb-go/flyteidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

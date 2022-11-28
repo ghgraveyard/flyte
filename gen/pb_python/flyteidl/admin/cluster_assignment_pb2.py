@@ -19,8 +19,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='flyteidl/admin/cluster_assignment.proto',
   package='flyteidl.admin',
   syntax='proto3',
-  serialized_options=_b('Z5github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/admin'),
-  serialized_pb=_b('\n\'flyteidl/admin/cluster_assignment.proto\x12\x0e\x66lyteidl.admin\":\n\x11\x43lusterAssignment\x12\x19\n\x11\x63luster_pool_name\x18\x03 \x01(\tJ\x04\x08\x01\x10\x02J\x04\x08\x02\x10\x03\x42\x37Z5github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/adminb\x06proto3')
+  serialized_options=_b('Z2github.com/flyteorg/flyte/gen/pb-go/flyteidl/admin'),
+  serialized_pb=_b('\n\'flyteidl/admin/cluster_assignment.proto\x12\x0e\x66lyteidl.admin\":\n\x11\x43lusterAssignment\x12\x19\n\x11\x63luster_pool_name\x18\x03 \x01(\tJ\x04\x08\x01\x10\x02J\x04\x08\x02\x10\x03\x42\x34Z2github.com/flyteorg/flyte/gen/pb-go/flyteidl/adminb\x06proto3')
 )
 
 

@@ -21,8 +21,8 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='flyteidl/service/identity.proto',
   package='flyteidl.service',
   syntax='proto3',
-  serialized_options=_b('Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/service'),
-  serialized_pb=_b('\n\x1f\x66lyteidl/service/identity.proto\x12\x10\x66lyteidl.service\x1a\x1cgoogle/api/annotations.proto\x1a,protoc-gen-swagger/options/annotations.proto\"\x11\n\x0fUserInfoRequest\"\x96\x01\n\x10UserInfoResponse\x12\x0f\n\x07subject\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x1a\n\x12preferred_username\x18\x03 \x01(\t\x12\x12\n\ngiven_name\x18\x04 \x01(\t\x12\x13\n\x0b\x66\x61mily_name\x18\x05 \x01(\t\x12\r\n\x05\x65mail\x18\x06 \x01(\t\x12\x0f\n\x07picture\x18\x07 \x01(\t2\x9d\x01\n\x0fIdentityService\x12\x89\x01\n\x08UserInfo\x12!.flyteidl.service.UserInfoRequest\x1a\".flyteidl.service.UserInfoResponse\"6\x82\xd3\xe4\x93\x02\x05\x12\x03/me\x92\x41(\x1a&Retrieves authenticated identity info.B9Z7github.com/flyteorg/flyteidl/gen/pb-go/flyteidl/serviceb\x06proto3')
+  serialized_options=_b('Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/service'),
+  serialized_pb=_b('\n\x1f\x66lyteidl/service/identity.proto\x12\x10\x66lyteidl.service\x1a\x1cgoogle/api/annotations.proto\x1a,protoc-gen-swagger/options/annotations.proto\"\x11\n\x0fUserInfoRequest\"\x96\x01\n\x10UserInfoResponse\x12\x0f\n\x07subject\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x1a\n\x12preferred_username\x18\x03 \x01(\t\x12\x12\n\ngiven_name\x18\x04 \x01(\t\x12\x13\n\x0b\x66\x61mily_name\x18\x05 \x01(\t\x12\r\n\x05\x65mail\x18\x06 \x01(\t\x12\x0f\n\x07picture\x18\x07 \x01(\t2\x9d\x01\n\x0fIdentityService\x12\x89\x01\n\x08UserInfo\x12!.flyteidl.service.UserInfoRequest\x1a\".flyteidl.service.UserInfoResponse\"6\x82\xd3\xe4\x93\x02\x05\x12\x03/me\x92\x41(\x1a&Retrieves authenticated identity info.B6Z4github.com/flyteorg/flyte/gen/pb-go/flyteidl/serviceb\x06proto3')
   ,
   dependencies=[google_dot_api_dot_annotations__pb2.DESCRIPTOR,protoc__gen__swagger_dot_options_dot_annotations__pb2.DESCRIPTOR,])
 

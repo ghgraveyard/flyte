@@ -36,8 +36,13 @@ linux_compile:
 update_boilerplate:
 	@boilerplate/update.sh
 
+.PHONY: doc_gen_deps # these dependencies are required by protoc gen doc for the protos which have external library dependencies.
+# which includes grpc-gateway, googleapis, k8.io/api and apimachinery, protocolbuffers
+doc_gen_deps:
+	./script/doc_gen_deps.sh
+
 .PHONY: generate
-generate: update_boilerplate install # get latest boiler plate, install tools, generate protos, mock, pflags and  get doc dependencies
+generate: update_boilerplate install doc_gen_deps # get latest boiler plate, install tools, generate protos, mock, pflags and  get doc dependencies
 	./script/generate_protos.sh
 	./script/generate_mocks.sh
 	go generate ./...

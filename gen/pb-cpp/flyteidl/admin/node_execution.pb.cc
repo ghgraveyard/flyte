@@ -510,13 +510,13 @@ const char descriptor_table_protodef_flyteidl_2fadmin_2fnode_5fexecution_2eproto
   "teralMap\022/\n\014full_outputs\030\004 \001(\0132\031.flyteid"
   "l.core.LiteralMap\022E\n\020dynamic_workflow\030\020 "
   "\001(\0132+.flyteidl.admin.DynamicWorkflowNode"
-  "MetadataB7Z5github.com/flyteorg/flyteidl"
-  "/gen/pb-go/flyteidl/adminb\006proto3"
+  "MetadataB4Z2github.com/flyteorg/flyte/ge"
+  "n/pb-go/flyteidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_flyteidl_2fadmin_2fnode_5fexecution_2eproto = {
   false, InitDefaults_flyteidl_2fadmin_2fnode_5fexecution_2eproto, 
   descriptor_table_protodef_flyteidl_2fadmin_2fnode_5fexecution_2eproto,
-  "flyteidl/admin/node_execution.proto", &assign_descriptors_table_flyteidl_2fadmin_2fnode_5fexecution_2eproto, 2593,
+  "flyteidl/admin/node_execution.proto", &assign_descriptors_table_flyteidl_2fadmin_2fnode_5fexecution_2eproto, 2590,
 };
 
 void AddDescriptors_flyteidl_2fadmin_2fnode_5fexecution_2eproto() {

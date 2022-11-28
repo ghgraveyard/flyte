@@ -13431,7 +13431,7 @@ public final class NodeExecutionOuterClass {
 
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -13439,7 +13439,7 @@ public final class NodeExecutionOuterClass {
     boolean hasFullOutputs();
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -13447,7 +13447,7 @@ public final class NodeExecutionOuterClass {
     flyteidl.core.Literals.LiteralMap getFullOutputs();
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -13728,7 +13728,7 @@ public final class NodeExecutionOuterClass {
     private flyteidl.core.Literals.LiteralMap fullOutputs_;
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -13738,7 +13738,7 @@ public final class NodeExecutionOuterClass {
     }
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -13748,7 +13748,7 @@ public final class NodeExecutionOuterClass {
     }
     /**
      * <pre>
-     * Full_outputs will only be populated if they are under a configured size threshold. 
+     * Full_outputs will only be populated if they are under a configured size threshold.
      * </pre>
      *
      * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14711,7 +14711,7 @@ public final class NodeExecutionOuterClass {
           flyteidl.core.Literals.LiteralMap, flyteidl.core.Literals.LiteralMap.Builder, flyteidl.core.Literals.LiteralMapOrBuilder> fullOutputsBuilder_;
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14721,7 +14721,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14735,7 +14735,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14755,7 +14755,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14773,7 +14773,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14795,7 +14795,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14813,7 +14813,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14825,7 +14825,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -14840,7 +14840,7 @@ public final class NodeExecutionOuterClass {
       }
       /**
        * <pre>
-       * Full_outputs will only be populated if they are under a configured size threshold. 
+       * Full_outputs will only be populated if they are under a configured size threshold.
        * </pre>
        *
        * <code>.flyteidl.core.LiteralMap full_outputs = 4;</code>
@@ -15196,8 +15196,8 @@ public final class NodeExecutionOuterClass {
       "teralMap\022/\n\014full_outputs\030\004 \001(\0132\031.flyteid" +
       "l.core.LiteralMap\022E\n\020dynamic_workflow\030\020 " +
       "\001(\0132+.flyteidl.admin.DynamicWorkflowNode" +
-      "MetadataB7Z5github.com/flyteorg/flyteidl" +
-      "/gen/pb-go/flyteidl/adminb\006proto3"
+      "MetadataB4Z2github.com/flyteorg/flyte/ge" +
+      "n/pb-go/flyteidl/adminb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

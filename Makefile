@@ -125,3 +125,15 @@ update_pyversion:
 update_npmversion:
 	grep "$(PLACEHOLDER_NPM)" "package.json"
 	sed -i "s/$(PLACEHOLDER_NPM)/\"version\":  \"${VERSION}\"/g" "package.json"
+
+.PHONY: recreate_buf_template
+recreate_buf_template:
+	buf beta registry template delete buf.build/flyteorg/templates/grpc-gateway-go --force | true
+
+	buf beta registry template create buf.build/flyteorg/templates/grpc-gateway-go \
+		--visibility public \
+		--config '{"version":"v1","plugins":[{"owner":"library","name":"go","opt":["paths=source_relative"]}, {"owner":"library","name":"go-grpc","opt":["paths=source_relative","require_unimplemented_servers=false"]},{"owner":"grpc-ecosystem","name":"grpc-gateway","opt":["paths=import","standalone=true","allow_delete_body=true"]},{"owner":"grpc-ecosystem","name":"openapiv2","opt":["json_names_for_fields=false","allow_delete_body=true"]}]}'
+
+	buf beta registry template version create buf.build/flyteorg/templates/grpc-gateway-go \
+		--name v1 \
+		--config '{"version":"v1","plugin_versions":[{"owner":"library","name":"go","version":"v1.27.1-1"},{"owner":"library","name":"go-grpc","version":"v1.1.0-2"},{"owner":"grpc-ecosystem","name":"grpc-gateway","version":"v2.11.1-1"},{"owner":"grpc-ecosystem","name":"openapiv2","version":"v2.10.3-1"}]}'
